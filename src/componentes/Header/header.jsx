@@ -1,0 +1,19 @@
+function Header(usuario) {
+    return (
+        <header className="cabecalho_linha">
+            <div className="container cabecalho_linha">
+                <a className="logo" href="#topo">
+
+
+                    -/{usuario}
+                    <span>_</span>
+
+                </a>
+
+            </div>
+        </header>
+
+    )
+
+
+}
