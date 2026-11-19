@@ -1,4 +1,4 @@
-function Header(usuario) {
+function Header({usuario}) {
     return (
         <header className="cabecalho_linha">
             <div className="container cabecalho_linha">
@@ -17,3 +17,5 @@ function Header(usuario) {
 
 
 }
+
+export default Header
