@@ -7,7 +7,7 @@ function Hero({ nome, cargo, resumo, cidade }) {
                 <div className="hero__texto">
                     <p className="hero__status">Em busca de um emprego</p>
                     <h1>
-                        [nome]
+                        {nome}
                         <span>.</span>
                     </h1>
                     <p className="hero__cargo">{cargo} </p>
@@ -15,12 +15,14 @@ function Hero({ nome, cargo, resumo, cidade }) {
                     <div className="hero__acoes">
                         <a className="botao botao--primario" href="projetos">
                             ver projetos <Icone nome="seta" tamanho={18} />
-                            <a className="botao botao--contorno" href="contato">
-                                falar comigo <Icone nome="seta" tamanho={18}></Icone>
+
+                        </a>
+
+                        <a className="botao botao--contorno" href="contato">
+                            falar comigo
 
 
 
-                            </a>
                         </a>
 
                     </div>
