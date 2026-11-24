@@ -5,4 +5,5 @@ export const perfil = {
     cidade: 'Cruz das Almas',
     email: 'davisuzart23@gmail.com',
     resumo: 'Estou aprendendo coisas coisaveis',
+    habilidades: ['HTML', 'CSS']
 }
